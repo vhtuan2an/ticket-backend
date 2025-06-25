@@ -1,5 +1,5 @@
 const bcrypt = require("bcrypt");
-const { generalAccessToken } = require("./Jwtservice");
+const { generalAccessToken } = require("./JwtService");
 const User = require("../models/UserModel");
 const EmailService = require("../services/EmailService");
 
